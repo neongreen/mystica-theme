@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Random HTML Example</title>
+  </head>
+  <body>
+    <h1>Random Number: <span id="random-number"></span></h1>
+    <ul>
+      <li>Apple</li>
+      <li>Banana</li>
+      <li>Cherry</li>
+    </ul>
+    <button onclick="generateRandom()">Generate New Number</button>
+    <script>
+      function generateRandom() {
+        document.getElementById("random-number").textContent = Math.floor(
+          Math.random() * 100
+        )
+      }
+      generateRandom()
+    </script>
+  </body>
+</html>

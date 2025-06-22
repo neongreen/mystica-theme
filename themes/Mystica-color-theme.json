@@ -416,6 +416,271 @@
 			}
 		},
 		{
+			"name": "Markdown - Headings",
+			"scope": "markup.heading.markdown",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown - Heading Punctuation",
+			"scope": [
+				"punctuation.definition.heading.markdown"
+			],
+			"settings": {
+				"foreground": "#707070"
+			}
+		},
+		{
+			"name": "Markdown - Heading Text",
+			"scope": "entity.name.section.markdown",
+			"settings": {
+				"foreground": "#5AC566"
+			}
+		},
+		{
+			"name": "Markdown - Setext Heading",
+			"scope": [
+				"markup.heading.setext.1.markdown",
+				"markup.heading.setext.2.markdown"
+			],
+			"settings": {
+				"foreground": "#5AC566",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown - Bold",
+			"scope": "markup.bold.markdown",
+			"settings": {
+				"foreground": "#E1BC59",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown - Bold Punctuation",
+			"scope": "punctuation.definition.bold.markdown",
+			"settings": {
+				"foreground": "#B8A050"
+			}
+		},
+		{
+			"name": "Markdown - Italic",
+			"scope": "markup.italic.markdown",
+			"settings": {
+				"foreground": "#D0A054",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markdown - Italic Punctuation",
+			"scope": "punctuation.definition.italic.markdown",
+			"settings": {
+				"foreground": "#B8904A"
+			}
+		},
+		{
+			"name": "Markdown - Strikethrough",
+			"scope": "markup.strikethrough.markdown",
+			"settings": {
+				"foreground": "#A08080",
+				"fontStyle": "strikethrough"
+			}
+		},
+		{
+			"name": "Markdown - Strikethrough Punctuation",
+			"scope": "punctuation.definition.strikethrough.markdown",
+			"settings": {
+				"foreground": "#807070"
+			}
+		},
+		{
+			"name": "Markdown - Inline Code",
+			"scope": "markup.inline.raw.string.markdown",
+			"settings": {
+				"foreground": "#139CB5"
+			}
+		},
+		{
+			"name": "Markdown - Inline Code Punctuation",
+			"scope": "punctuation.definition.raw.markdown",
+			"settings": {
+				"foreground": "#0E7A8F"
+			}
+		},
+		{
+			"name": "Markdown - Code Block",
+			"scope": "markup.fenced_code.block.markdown",
+			"settings": {
+				"foreground": "#139CB5"
+			}
+		},
+		{
+			"name": "Markdown - Code Block Language",
+			"scope": "fenced_code.block.language.markdown",
+			"settings": {
+				"foreground": "#707070",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markdown - Code Block Punctuation",
+			"scope": "punctuation.definition.markdown",
+			"settings": {
+				"foreground": "#707070"
+			}
+		},
+		{
+			"name": "Markdown - Link Text",
+			"scope": "string.other.link.title.markdown",
+			"settings": {
+				"foreground": "#6BB8D8"
+			}
+		},
+		{
+			"name": "Markdown - Link Text Punctuation",
+			"scope": [
+				"punctuation.definition.link.title.begin.markdown",
+				"punctuation.definition.link.title.end.markdown"
+			],
+			"settings": {
+				"foreground": "#6BB8D8CC"
+			}
+		},
+		{
+			"name": "Markdown - Link URL",
+			"scope": [
+				"markup.underline.link.markdown",
+				"markup.underline.link.image.markdown"
+			],
+			"settings": {
+				"foreground": "#8A7B9B",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Markdown - Link URL Punctuation",
+			"scope": [
+				"meta.link.inline.markdown punctuation.definition.metadata.markdown",
+				"meta.image.inline.markdown punctuation.definition.metadata.markdown"
+			],
+			"settings": {
+				"foreground": "#8A7B9BCC"
+			}
+		},
+		{
+			"name": "Markdown - Reference Link",
+			"scope": "constant.other.reference.link.markdown",
+			"settings": {
+				"foreground": "#48A090"
+			}
+		},
+		{
+			"name": "Markdown - Reference Link Punctuation",
+			"scope": [
+				"meta.link.reference.markdown punctuation.definition.constant",
+				"meta.link.reference.def.markdown"
+			],
+			"settings": {
+				"foreground": "#48A090CC"
+			}
+		},
+		{
+			"name": "Markdown - Blockquote",
+			"scope": "markup.quote.markdown",
+			"settings": {
+				"foreground": "#F2A07B"
+			}
+		},
+		{
+			"name": "Markdown - Blockquote Marker",
+			"scope": "punctuation.definition.quote.begin.markdown",
+			"settings": {
+				"foreground": "#F2A07BCC"
+			}
+		},
+		{
+			"name": "Markdown - Blockquote>Heading",
+			"scope": "markup.quote.markdown entity.name.section.markdown",
+			"settings": {
+				"fontStyle": "bold italic"
+			}
+		},
+		{
+			"name": "Markdown - List Marker",
+			"scope": "punctuation.definition.list.begin.markdown",
+			"settings": {
+				"foreground": "#C09854"
+			}
+		},
+		{
+			"name": "Markdown - Horizontal Rule",
+			"scope": "meta.separator.markdown",
+			"settings": {
+				"foreground": "#606060",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown - Table Punctuation",
+			"scope": [
+				"punctuation.definition.table.markdown",
+				"punctuation.separator.table.markdown"
+			],
+			"settings": {
+				"foreground": "#707070"
+			}
+		},
+		{
+			"name": "Markdown - Image Alt Text, Link Titles",
+			"scope": [
+				"meta.image.inline.markdown string.other.link.description.markdown",
+				"meta.link.reference.def.markdown string.other.link.description.title.markdown "
+			],
+			"settings": {
+				"foreground": "#88AC4D",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markdown - Image Alt Text - Punctuation",
+			"scope": [
+				"meta.image.inline.markdown punctuation.definition.link.description"
+			],
+			"settings": {
+				"foreground": "#88AC4DCC"
+			}
+		},
+		{
+			"name": "Markdown - Line Break",
+			"scope": "meta.dummy.line-break",
+			"settings": {
+				"foreground": "#707070"
+			}
+		},
+		{
+			"name": "Markdown - Math - LaTeX Math Expressions",
+			"scope": [
+				"markup.math.inline.markdown",
+				"markup.math.block.markdown",
+				"meta.math.block.markdown",
+				"meta.math.inline.markdown"
+			],
+			"settings": {
+				"foreground": "#E67E22"
+			}
+		},
+		{
+			"name": "Markdown - Math - LaTeX Math Delimiters",
+			"scope": [
+				"punctuation.definition.math.begin.markdown",
+				"punctuation.definition.math.end.markdown"
+			],
+			"settings": {
+				"foreground": "#D35400"
+			}
+		},
+		{
 			"scope": "storage.type",
 			"settings": {
 				"foreground": "#389868"
